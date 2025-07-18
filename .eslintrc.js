@@ -11,6 +11,10 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
   ],
+  // parserOptions: {
+  //   tsconfigRootDir: __dirname,
+  //   project: ['./tsconfig.base.json'],
+  // },
   rules: {
     // 你的自定义规则
   },

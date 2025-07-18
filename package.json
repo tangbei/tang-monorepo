@@ -1,0 +1,30 @@
+{
+  "name": "tang-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:all": "concurrently \"pnpm run -C apps/react-h5 dev\" \"pnpm run -C apps/react-pc dev\"",
+    "dev:h5": "pnpm run -C apps/react-h5 dev",
+    "dev:pc": "pnpm run -C apps/react-pc dev",
+    "build:h5": "pnpm run -C apps/react-h5 build",
+    "build:pc": "pnpm run -C apps/react-pc build",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.37.0",
+    "@typescript-eslint/parser": "^8.37.0",
+    "concurrently": "^9.2.0",
+    "eslint": "^9.30.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --fix"
+    ]
+  }
+}

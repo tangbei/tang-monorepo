@@ -1,0 +1,19 @@
+@import './main.css';
+
+/* 这里配置公共的样式，建议取名的时候前面用统一的前缀，方便查找 */
+.common-button {
+  background-color: #6b9cd0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.common-button:hover {
+  background-color: #0056b3;
+}

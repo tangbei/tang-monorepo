@@ -5,15 +5,18 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
   },
   "dependencies": {
+    "@tang/styles": "workspace:*",
+    "@tang/utils": "workspace:*",
+    "antd-mobile": "^5.39.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "@tang/styles": "workspace:*",
-    "@tang/utils": "workspace:*"
+    "react-router": "^7.7.0",
+    "react-router-dom": "^7.7.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
@@ -24,6 +27,9 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
+    "postcss": "^8.5.6",
+    "postcss-px-to-viewport": "^1.1.1",
+    "sass": "^1.89.2",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.35.1",
     "vite": "^7.0.4"

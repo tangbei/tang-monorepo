@@ -23,6 +23,10 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2"
   },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
   "lint-staged": {
     "*.{js,ts,tsx}": [
       "eslint --fix"

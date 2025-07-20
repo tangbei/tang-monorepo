@@ -31,6 +31,10 @@ const routeConfig: RouteConfig[] = [
           },
         ],
       },
+      {
+        path: '/mine',
+        element: lazy(() => import('@/pages/mine')),
+      }
     ],
   },
 ]

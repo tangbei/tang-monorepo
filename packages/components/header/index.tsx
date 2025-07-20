@@ -1,8 +1,8 @@
 import React from 'react';
-import './style.scss';
+import style from './style.module.scss';
 
 const Header = () => {
-  return <div className='header'>我是公共Header组件aa</div>;
+  return <div className={style.header}>我是公共Header组件aa</div>;
 };
 
 export default Header;

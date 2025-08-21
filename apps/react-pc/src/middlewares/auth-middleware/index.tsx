@@ -30,7 +30,7 @@ const AuthMiddleware: React.FC = () => {
       }
 
       setLoading(false);
-    }, 2000);
+    }, 0);
   }, [location.pathname]);
 
   if (loading) {

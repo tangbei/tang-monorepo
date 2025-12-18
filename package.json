@@ -4,45 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:all": "concurrently \"pnpm run -C apps/react-h5 dev\" \"pnpm run -C apps/react-pc dev\"",
-    "dev:h5": "pnpm run -C apps/react-h5 dev",
-    "dev:pc": "pnpm run -C apps/react-pc dev",
-    "build:h5": "pnpm run -C apps/react-h5 build",
-    "build:pc": "pnpm run -C apps/react-pc build",
-    "prepare": "husky install",
-    "eslint": "eslint --ext .js,.jsx,.ts,.tsx --fix --quiet ./"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@eslint/js": "^9.30.1",
-    "@types/node": "^24.0.15",
-    "@types/react": "^19.1.8",
-    "@types/react-dom": "^19.1.6",
-    "@typescript-eslint/eslint-plugin": "^8.37.0",
-    "@typescript-eslint/parser": "^8.37.0",
-    "concurrently": "^9.2.0",
-    "eslint": "^9.30.1",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-prettier": "^5.5.3",
-    "eslint-plugin-react": "^7.37.5",
-    "globals": "^16.3.0",
-    "husky": "^9.1.7",
-    "lint-staged": "^16.1.2",
-    "nx": "21.4.1",
-    "prettier": "^3.6.2",
-    "sass": "^1.89.2",
-    "typescript": "~5.8.3",
-    "typescript-eslint": "^8.35.1"
-  },
-  "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
-  },
-  "lint-staged": {
-    "*.{js,ts,tsx}": [
-      "eslint --fix"
-    ]
-  }
+  "packageManager": "pnpm@10.18.1"
 }

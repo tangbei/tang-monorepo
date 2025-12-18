@@ -10,8 +10,6 @@ dist
 *.njsproj
 *.sln
 *.sw?
-
-node_modules
 */dist
 apps/blog/.dumi
 apps/blog/.dumi

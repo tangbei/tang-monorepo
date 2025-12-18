@@ -4,10 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node scripts/start.js dev",
+    "start": "pnpm --filter tang-blog run dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.18.1"
+  "packageManager": "pnpm@10.18.1",
+  "devDependencies": {
+    "enquirer": "2.4.1",
+    "prettier": "2.8.8"
+  }
 }

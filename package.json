@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "node scripts/start.js dev",
-    "start": "pnpm --filter tang-blog run dev"
+    "start": "pnpm --filter tang-blog run dev",
+    "build": "node scripts/build.js"
   },
   "keywords": [],
   "author": "",

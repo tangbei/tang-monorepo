@@ -19,10 +19,7 @@
     "paths": {}
   },
   "include": [
-    "apps/*/src/**/*",
-    "apps/*/types.d.ts",
-    "packages/*/src/**/*",
-    "global.d.ts"
+    "types/global.d.ts"
   ],
   "exclude": [
     "node_modules",
